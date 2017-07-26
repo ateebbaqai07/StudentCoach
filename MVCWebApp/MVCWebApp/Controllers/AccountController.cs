@@ -12,7 +12,7 @@ using MVCWebApp.Models;
 
 namespace MVCWebApp.Controllers
 {
-    [Authorize] 
+    [Authorize]      
     public class AccountController : Controller
     {
         private ApplicationSignInManager _signInManager;
